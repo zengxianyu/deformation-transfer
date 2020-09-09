@@ -1,3 +1,5 @@
+CFLAGS +=-m32
+LDFLAGS += -m32
 INCLUDE_PATH    := ./ ../external/include/ ../common/ ../gl_util/
 SOURCE_PATH     := ./ ../common/ ../gl_util/
 DEPENDENCY_PATH := dep

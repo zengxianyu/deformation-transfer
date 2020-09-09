@@ -1,3 +1,5 @@
+CFLAGS +=-m32
+LDFLAGS += -m32
 INCLUDE_PATH    := ./ ../external/include/ ../common/
 SOURCE_PATH     := ./ ../common/
 DEPENDENCY_PATH := dep

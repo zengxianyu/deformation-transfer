@@ -1,3 +1,5 @@
+CFLAGS +=-m32
+LDFLAGS += -m32
 all:
 	cd modelviz;         make;
 	cd corrstool;        make;
